@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yinka Olowe - Publications</title>
+    <title>Yinka Olowe </title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -39,9 +39,23 @@
             display: inline;
             padding: 0 20px 0 20px;
         }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
         .main {
             padding: 20px;
             background: #fff;
+        }
+        .bio {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .bio img {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
         }
         footer {
             text-align: center;
@@ -55,24 +69,43 @@
     <header>
         <div class="container">
             <h1>Yinka Olowe</h1>
+            <nav>
+                <ul>
+                    <li><a href="#bio">Bio</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#cv">CV</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <div class="container main">
+    <div id="bio" class="container main">
+        <div class="bio">
+            <img src="photo.jpg" alt="Yinka Olowe">
+            <div>
+                <h2>About Me</h2>
+                <p>Yinka Olowe is a researcher with expertise in natural language processing and digital marketing. His research focuses on the development of intelligent database systems and the adoption of digital marketing strategies in SMEs. He has published numerous papers on these topics.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="publications" class="container main">
         <h2>Publications</h2>
         <ul>
             <li><a href="https://app.box.com/file/1570058392421" target="_blank">Natural language Interface to Database Systems NLIDBs 1</a></li>
             <li><a href="https://app.box.com/file/1570058078152" target="_blank">Charis-Data: An Intelligent Database System Using BERT Model as NLP Technique.</a></li>
             <li><a href="https://app.box.com/file/1570058658880" target="_blank">Adoption of Digital Marketing in Africa’s SMEs: a Review</a></li>
-            <li><a href="https://app.box.com/file/1570061555560" target="_blank">Digital Marketing: The Impact of Search Engine Optimization as a marketing technique in SMEs </a></li>
+            <li><a href="https://app.box.com/file/1570061555560" target="_blank">Digital Marketing: The Impact of Search Engine Optimization as a marketing technique in SMEs</a></li>
         </ul>
     </div>
-<div class="container main">
+
+    <div id="cv" class="container main">
         <h2>CV</h2>
         <ul>
-           <li><a href="https://app.box.com/file/1570065498788" target="_blank">CV</a></li>
+            <li><a href="https://app.box.com/file/1570065498788" target="_blank">CV</a></li>
         </ul>
     </div>
+
     <footer>
         <p>&copy; 2024 Yinka Olowe</p>
     </footer>
